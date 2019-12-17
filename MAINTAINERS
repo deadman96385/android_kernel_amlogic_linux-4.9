@@ -15418,3 +15418,7 @@ AMLOGIC SC2 s905x4 DTS
 M: Luan Yuan <Luan.Yuan@amlogic.com>
 F: arch/arm/boot/dts/amlogic/sc2_s905x4_ah212_mxl258c.dts
 F: arch/arm64/boot/dts/amlogic/sc2_s905x4_ah212_mxl258c.dts
+
+SPOTIFY SUPERBIRD DTS
+M:  Jimmy Wahlberg <jimmywa@spotify.com>
+F:  arch/arm64/boot/dts/amlogic/g12a_s905d_u200_superbird.dts
