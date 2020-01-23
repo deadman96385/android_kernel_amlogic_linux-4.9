@@ -1401,6 +1401,38 @@
 		};
 	};
 
+	spotify_disabled_pins_c: spotify_disabled_pins_c {
+		mux {
+			pins = "GPIOC_0",
+				"GPIOC_1",
+				"GPIOC_2",
+				"GPIOC_3",
+				"GPIOC_5",
+				"GPIOC_6",
+				"GPIOC_7";
+			output-low;
+		};
+	};
+
+	spotify_disabled_pins_a: spotify_disabled_pins_a {
+		mux {
+			pins = "GPIOA_10",
+				"GPIOA_11",
+				"GPIOA_12",
+				"GPIOA_13",
+				"GPIOA_14",
+				"GPIOA_15";
+			output-low;
+		};
+	};
+
+	spotify_buzzer: spotify_buzzer {
+		mux {
+			groups = "pwm_c_c4";
+			function = "pwm_c";
+		};
+	};
+
 	/* Spotify edit */
 	pdmin: pdmin {
 		mux { /* gpioa_7, gpioa_8, gpioa_9*/
