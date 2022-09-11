@@ -932,7 +932,7 @@
 		compatible = "st,lis2dh12-accel";
 		reg = <0x31>;
 	};
-	
+
 	max20332@35 {
 		reg = <0x35>;
 	};
